@@ -1,6 +1,6 @@
 # 📊 Data Portfolio – Tu Nguyen
 
-Welcome to my personal data portfolio! This repository contains folders of end-to-end data projects I've worked on in areas such as **Data Analytics**, **Business Intelligence**, and **Marketing Data Science**.
+Welcome to my personal data portfolio! This repository contains folders of end-to-end data projects I've worked on in areas such as **Data Analytics**, **Business Intelligence**, and **Automation**.
 
 ---
 
