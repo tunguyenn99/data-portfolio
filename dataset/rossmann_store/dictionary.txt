@@ -1,0 +1,38 @@
+Id - một Id biểu diễn một (Store, Date) duple trong tập kiểm tra
+
+Store - một Id duy nhất cho mỗi cửa hàng
+
+Sales - doanh thu cho bất kỳ ngày nào (đây là những gì bạn đang dự đoán)
+
+Customers - số lượng khách hàng trong một ngày nhất định
+
+Open - một chỉ báo cho biết cửa hàng có mở cửa hay không: 0 = đóng cửa, 1 = mở cửa
+
+StateHoliday - biểu thị ngày lễ của tiểu bang. 
+        Thông thường, tất cả các cửa hàng, với một số ít ngoại lệ, 
+        đều đóng cửa vào các ngày lễ của tiểu bang. 
+        Lưu ý rằng tất cả các trường học đều đóng cửa vào các ngày lễ và cuối tuần. 
+        a = ngày lễ, b = ngày lễ Phục sinh, c = Giáng sinh, 0 = Không có
+
+SchoolHoliday - cho biết (Store, Date) có bị ảnh hưởng bởi việc đóng cửa trường công không
+
+StoreType - phân biệt giữa 4 mô hình cửa hàng khác nhau: a, b, c, d
+
+Assortment - mô tả cấp độ sắp xếp: a = cơ bản, b = bổ sung, c = mở rộng
+
+CompetitionDistance - khoảng cách tính bằng mét đến cửa hàng của đối thủ cạnh tranh gần nhất
+
+CompetitionOpenSince[Tháng/Năm] - cung cấp năm và tháng gần đúng của thời điểm đối thủ cạnh tranh gần nhất mở cửa
+
+Promo - cho biết liệu một cửa hàng có đang chạy chương trình khuyến mãi vào ngày đó không
+
+Promo2 - Promo2 là chương trình khuyến mãi liên tục và liên tiếp của một số cửa hàng: 
+        0 = cửa hàng không tham gia, 1 = cửa hàng đang tham gia
+
+Promo2Since[Year/Week] - mô tả năm và tuần dương lịch khi cửa hàng bắt đầu tham gia Promo2
+
+PromoInterval - mô tả các khoảng thời gian liên tiếp Promo2 được bắt đầu, 
+                nêu tên các tháng mà chương trình khuyến mãi được bắt đầu lại. 
+                Ví dụ: "Tháng 2, tháng 5, tháng 8, tháng 11" có nghĩa là 
+                mỗi vòng bắt đầu vào tháng 2, tháng 5, tháng 8, tháng 11 
+                của bất kỳ năm nào cho cửa hàng đó

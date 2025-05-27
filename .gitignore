@@ -1,0 +1,35 @@
+# Ignore CSV files (especially large raw data)
+*.csv
+
+# Ignore Excel files
+*.xls
+*.xlsx
+
+# Ignore temporary and backup files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore MacOS & Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore logs
+*.log
