@@ -15,7 +15,7 @@ Each folder in this repository represents a standalone project, featuring data p
 ## 👩‍💻 About Me
 
 - 💼 Data Analyst at VNPAY  
-- 📍 Skills: SQL, Python, Power BI, Looker Studio, Spark, Facebook Ads API  
+- 📍 Skills: SQL, Python, Power BI, Looker Studio, Spark, Google BigQuery, Apache Airflow, Superset ...
 - 💡 Focus: Data Analytics & Technology  
 - 📫 LinkedIn: [Connect with me](https://www.linkedin.com/in/tunguyenn99/)
 
